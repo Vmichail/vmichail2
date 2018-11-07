@@ -166,16 +166,22 @@ footer {
   .a,
   .b,
   .c {
-    position: relative;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    height: 15% !important;
+    position: absolute;
   }
   .a {
-    display: none;
+    height: 19% !important;
+    margin-left: 8px !important;
+    margin-right: 0px !important;
   }
   .b {
-    display: none;
+    height: 18% !important;
+    margin-left: 6px !important;
+    margin-right: 0 !important;
+  }
+  .c {
+    height: 15% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .text2 {
     width: 100% !important;
