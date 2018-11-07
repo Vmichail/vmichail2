@@ -1,0 +1,157 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.margin {
+  margin: 15px 65px 80px 65px;
+}
+.center {
+  display: inline-block;
+  text-align: center;
+}
+.center img {
+  margin-top: 25px;
+  height: 100px;
+  width: 100px;
+}
+#first {
+  min-height: 33%;
+  height: auto;
+  background-image: url("first.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+#second {
+  min-height: 33%;
+  height: auto;
+  background-color: whitesmoke;
+}
+.png {
+  width: 25px;
+  height: 25px;
+}
+#third {
+  height: auto;
+  min-height: 34%;
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(74, 230, 230, 0.75),
+      rgba(74, 230, 230, 0.75)
+    ),
+    /* bottom, image */ url(second.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+.a {
+  position: absolute;
+  margin: 25px 0px 0px 55px !important;
+  background-color: rgba(74, 230, 230, 0.4);
+  height: 26% !important;
+  max-width: 40% !important;
+  border: none;
+}
+.b {
+  position: absolute;
+  margin: 35px 0px 0px 65px !important;
+  background-color: rgba(74, 230, 230, 0.6);
+  height: 19% !important;
+  max-width: 38% !important;
+  border: none;
+}
+.c {
+  position: absolute;
+  margin: 35px 0px 0px 75px !important;
+  background-color: rgba(74, 230, 230, 0.8);
+  height: 22% !important;
+  max-width: 35% !important;
+  border: none;
+}
+.hText {
+  color: whitesmoke;
+  font-size: 25px;
+}
+/* button */
+.overflow {
+  overflow: hidden !important;
+}
+.more {
+  position: relative !important;
+  overflow: hidden !important;
+  background-color: whitesmoke !important;
+  color: rgb(30, 121, 122) !important;
+}
+.more:hover {
+  background-color: rgb(30, 121, 122) !important;
+  color: whitesmoke !important;
+}
+.position {
+  position: static !important;
+}
+.right {
+  margin: 0px 100px 0px 155px;
+  align-content: center;
+  text-align: center;
+}
+.text2 {
+  margin-top: 30px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+/*small button */
+/* for mobile */
+@media (max-width: 1200px) {
+  .hText {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .text2 {
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+footer {
+  color: rgb(69, 209, 252) !important;
+  text-align: center;
+  padding: 5px;
+  background: #1c3247;
+  color: white;
+  line-height: 5px;
+}
+@media (max-width: 960px) {
+  .hText {
+    color: whitesmoke;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .hText {
+    color: whitesmoke;
+    font-size: 10px;
+    margin: 0 !important;
+  }
+  .more {
+    display: inline !important;
+  }
+  .a,
+  .b,
+  .c {
+    position: relative;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .a {
+    display: none;
+  }
+  .b {
+    display: none;
+  }
+}
