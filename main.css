@@ -54,24 +54,24 @@ body {
   position: absolute;
   margin: 25px 0px 0px 55px !important;
   background-color: rgba(74, 230, 230, 0.4);
-  height: 26% !important;
-  max-width: 40% !important;
+  height: 26%;
+  max-width: 40%;
   border: none;
 }
 .b {
   position: absolute;
   margin: 35px 0px 0px 65px !important;
   background-color: rgba(74, 230, 230, 0.6);
-  height: 19% !important;
-  max-width: 38% !important;
+  height: 19%;
+  max-width: 38%;
   border: none;
 }
 .c {
   position: absolute;
   margin: 35px 0px 0px 75px !important;
   background-color: rgba(74, 230, 230, 0.8);
-  height: 22% !important;
-  max-width: 35% !important;
+  height: 22%;
+  max-width: 35%;
   border: none;
 }
 .hText {
@@ -143,23 +143,16 @@ footer {
 @media (max-width: 480px) {
   .hText {
     color: whitesmoke;
-    font-size: 10px;
+    font-size: 15px;
     margin: 0 !important;
   }
   .more {
-    display: inherit !important;
+    display: relative !important;
     align-content: center;
-    margin-right: 0 !important;
-    padding-right: 0 !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
   }
   .text3 {
-    margin: 0;
-    padding: 0;
     text-align: center;
     font-size: 11px;
-    min-width: 50px;
   }
   .btn {
   }
@@ -169,17 +162,20 @@ footer {
     position: absolute;
   }
   .a {
-    height: 19% !important;
+    max-width: 64%;
+    max-height: 19% !important;
     margin-left: 8px !important;
     margin-right: 0px !important;
   }
   .b {
-    height: 18% !important;
+    max-width: 61%;
+    max-height: 18% !important;
     margin-left: 6px !important;
     margin-right: 0 !important;
   }
   .c {
-    height: 15% !important;
+    max-width: 60%;
+    max-height: 15% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
