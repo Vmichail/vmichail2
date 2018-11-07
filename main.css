@@ -1,4 +1,3 @@
-/* Vmichail resposive site */
 body {
   padding: 0;
   margin: 0;
@@ -148,7 +147,21 @@ footer {
     margin: 0 !important;
   }
   .more {
-    display: inline !important;
+    display: inherit !important;
+    align-content: center;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .text3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 11px;
+    min-width: 50px;
+  }
+  .btn {
   }
   .a,
   .b,
@@ -156,6 +169,7 @@ footer {
     position: relative;
     margin-left: 0 !important;
     margin-right: 0 !important;
+    height: 15% !important;
   }
   .a {
     display: none;
